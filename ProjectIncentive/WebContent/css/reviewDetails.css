@@ -1,0 +1,23 @@
+button
+	{
+		padding: 15px;
+		margin-left: 20px;
+		margin-right: 5px;
+		font-weight: bold;
+		border-color:#999;
+		border-style:double;
+		border-width:2px;
+		width: 150px;
+		align-content: center;
+	}
+	button:hover
+	{
+		background-color: #000e63;
+		border-color:#000e63;
+		color:#FFF;
+	}
+	fieldset
+	{
+		border-radius: 10px;
+		margin-right: 20px;
+	}

@@ -1,0 +1,99 @@
+button
+	{
+		padding: 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+		font-weight: bold;
+		border-color:#999;
+		border-style:double;
+		border-width:2px;
+		width: 130px;
+		align-content: center;
+	}
+	button:hover
+	{
+		background-color: #000e63;
+		border-color:#000e63;
+		color:#FFF;
+	}
+	legend
+	{
+		text-align: center;
+	}
+	fieldset
+	{
+		border-radius: 10px;
+		float: left;
+		margin-bottom: 20px;
+	}
+	select
+	{
+		width: 120px;
+		height: 25px;
+	}
+	input[type=text]
+	{
+		width: 120px;
+		height: 20px;
+		padding-left: 3px;
+	}
+	input[type=submit],input[type=reset],input[type=button]
+	{
+		padding: 15px;
+		width: 150px;
+		font-weight: bold;
+		border-color:#999;
+		border-style:double;
+		border-width:2px;
+		align-content: center;
+	}
+	input[type=submit]:hover,input[type=reset]:hover,input[type=button]:hover
+	{
+		background-color: #000e63;
+		border-color:#000e63;
+		color:#FFF;
+	}
+	/* The Modal (background) */
+	.modal 
+	{
+  		display: none; /* Hidden by default */
+  		position: fixed; /* Stay in place */
+  		z-index: 1; /* Sit on top */
+  		padding-top: 100px; /* Location of the box */
+  		left: 0;
+  		top: 0;
+  		width: 100%; /* Full width */
+  		height: 100%; /* Full height */
+  		overflow: auto; /* Enable scroll if needed */
+  		background-color: rgb(0,0,0); /* Fallback color */
+  		background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+	}
+
+	/* Modal Content */
+	.modal-content 
+	{
+  		background-color: #fefefe;
+  		margin: auto;
+  		padding: 20px;
+  		border: 1px solid #888;
+  		width: 50%;
+  		text-align: center;
+	}
+
+	/* The Close Button */
+	.close 
+	{
+  		color: #aaaaaa;
+  		float: right;
+  		font-size: 28px;
+  		font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus 
+	{
+ 		color: #000;
+  		text-decoration: none;
+  		cursor: pointer;
+	}
+	

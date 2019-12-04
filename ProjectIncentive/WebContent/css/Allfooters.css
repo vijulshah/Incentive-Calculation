@@ -1,0 +1,14 @@
+footer 
+	{
+ 	 	position: fixed;
+  		left: 0;
+  		bottom: 0;
+  		width: 100%;
+  		background-color: rgba(94, 94, 94,0.2);
+  		color: black;
+  		font-family: cursive;
+  		font-size: 12px;
+  		text-align: center;
+  		padding: 2px;
+  		margin-top: -50px;
+	}
